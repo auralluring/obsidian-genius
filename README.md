@@ -1,4 +1,4 @@
-# Obsidian Sample Plugin
+# Obsidian Genius
 
 This is a sample plugin for Obsidian (https://obsidian.md).
 

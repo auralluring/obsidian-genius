@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-lyric-scraper",
+	"name": "obsidian-genius",
 	"version": "0.0.1",
 	"description": "Uses the Genius API to get the lyrics of songs.",
 	"main": "main.js",

@@ -1,9 +1,9 @@
 {
-	"id": "lyric-scraper",
-	"name": "Lyric Scraper",
+	"id": "obsidian-genius",
+	"name": "Genius",
 	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "Uses the Genius API to get lyrics to songs.",
+	"description": "Uses the Genius API to get lyrics to songs, among other things.",
 	"author": "auratheenby",
 	"authorUrl": "https://github.com/auratheenby",
 	"fundingUrl": "",

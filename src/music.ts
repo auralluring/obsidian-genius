@@ -1,11 +1,21 @@
-export class Artist {
 
+
+class Resource {
+    name: string
+    id: number
+    url: string
+    description: string
 }
 
-export class Release {
-
-}
-
-export class Song {
+export class Artist extends Resource {
     
+
+}
+
+export class Release extends Resource {
+
+}
+
+export class Song extends Resource {
+
 }

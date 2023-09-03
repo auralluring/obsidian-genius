@@ -1,18 +1,19 @@
 import { Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
+import { getSong, test } from './src/genius'
 
-interface LyricScraperSettings {
+interface GeniusSettings {
 }
 
-const DEFAULT_SETTINGS: LyricScraperSettings = {
+const DEFAULT_SETTINGS: GeniusSettings = {
 }
 
-export default class LyricScraper extends Plugin {
-	settings: LyricScraperSettings;
+export default class GeniusPlugin extends Plugin {
+	settings: GeniusSettings;
 
 	async onload() {
 		await this.loadSettings();
 
-		
+		this.addRibbonIcon("search", "Search Song", test)
 	}
 
 	onunload() {
@@ -25,6 +26,6 @@ export default class LyricScraper extends Plugin {
 
 	async saveSettings() {
 		await this.saveData(this.settings);
-	}
-}
+	};
+};
 
